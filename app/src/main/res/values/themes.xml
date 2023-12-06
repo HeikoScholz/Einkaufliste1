@@ -2,7 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Einkaufliste1" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryDark">@color/teal_200</item>
+        <item name="colorAccent">@color/teal_700</item>
     </style>
 
     <style name="Theme.Einkaufliste1" parent="Base.Theme.Einkaufliste1" />

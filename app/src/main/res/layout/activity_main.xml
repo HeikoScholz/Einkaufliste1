@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fabfloatingActionButton2"
+        android:id="@+id/fabfloatingActionButtonPlus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
@@ -17,6 +17,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:clickable="true"
+        app:backgroundTint="#39853C"
         app:srcCompat="@android:drawable/ic_input_add" />
 
     <LinearLayout
@@ -37,7 +38,11 @@
         <ListView
             android:id="@+id/lvTodoListe"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:contextClickable="false"
+            android:textFilterEnabled="false" />
+
     </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
